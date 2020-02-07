@@ -48,6 +48,7 @@ export default {
         width: '24px',
         height: '24px',
         background: 'white',
+        padding: '3px',
         border: '1px solid #999',
         verticalAlign: 'middle',
     },
