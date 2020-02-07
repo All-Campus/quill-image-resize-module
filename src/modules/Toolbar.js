@@ -6,7 +6,7 @@ import { BaseModule } from './BaseModule';
 import VQuill from 'quill';
 const Quill = window.Quill || VQuill;
 
-const Parchment = window.Quill.imports.parchment;
+const Parchment = Quill.imports.parchment;
 const FloatStyle = new Parchment.Attributor.Style('float', 'float');
 const MarginStyle = new Parchment.Attributor.Style('margin', 'margin');
 const DisplayStyle = new Parchment.Attributor.Style('display', 'display');
